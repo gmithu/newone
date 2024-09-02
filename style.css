@@ -1,0 +1,333 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.confirst {
+    width: 100%;
+    height: 35px;
+    justify-content: end;
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+
+
+
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    opacity: 0.9;
+
+}
+
+.contchild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.Gbtn {
+    margin-top: 30px;
+    border-radius: 80%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: larger;
+    padding: 0;
+    cursor: pointer;
+}
+
+.h1 {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.bcont {
+    text-align: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bcont:hover {
+    background-color: rgb(49, 48, 48);
+}
+
+.coninput {
+    width: 300px;
+    height: 20px;
+    border: none;
+    padding-left: 30px;
+    font-family: 'FontAwesome';
+
+
+
+}
+
+.inpdiv {
+    width: 500px;
+    height: 41px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.inpdivch {
+
+    background-image: url("https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 30px;
+    height: 28px;
+    margin-left: 79px;
+
+}
+
+.inpdivch1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Tvow972-XtUytQwjptweiMc83VT7n8zZhA&s");
+    width: 25px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: 19px;
+    display: flex;
+    justify-content: end;
+    margin-left: 13px;
+
+}
+
+.cont input::placeholder {
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+
+}
+
+.cont input:focus {
+    outline: none;
+}
+.cont input:valid{
+    font-size: 17px;
+}
+.b {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 21px;
+    margin-top: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 60px;
+    margin-top: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.b:hover {
+    border-bottom: 1px solid white;
+}
+
+.b1:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.nav {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    top: 48px;
+    left: 97%;
+    cursor: pointer;
+
+}
+
+.nav.active {
+    width: 200px;
+    height: 300px;
+    left: 85%;
+    top: 70px;
+    border: 2px solid white;
+    background-color: antiquewhite;
+
+}
+
+.nav:hover {
+    background-color: rgb(60, 58, 58);
+
+}
+
+.nav span {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    transform: translate(calc(6px * var(--x)), calc(6px * var(--y)));
+
+}
+
+
+
+.taskb {
+    width: 100%;
+    height: 18px;
+    background-color: rgb(48, 47, 47);
+    border-bottom: 1px solid rgb(98, 97, 97);
+    display: flex;
+    padding: 7px;
+    gap: 12px;
+}
+
+
+.taskbb {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    gap: 9px;
+
+
+}
+
+.taskbb:hover {
+    background-color: rgb(67, 68, 68);
+    border-radius: 10px;
+    height: 22px;
+
+}
+
+.divboxadd {
+
+    height: 200px;
+    width: 440px;
+    position: absolute;
+    top: 250px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: rgb(23, 23, 23);
+    display: none;
+    z-index: 3;
+
+}
+
+.inadd {
+    background-color: rgb(11, 11, 11);
+    border: none;
+    height: 20px;
+    position: absolute;
+    top: 70px;
+    width: 430px;
+
+
+}
+
+
+
+.inadd:valid {
+    color: antiquewhite;
+}
+
+.inadd:focus {
+    border-bottom: 2px solid skyblue;
+    
+}
+
+.inurl {
+    background-color: rgb(11, 11, 11);
+    border: none;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    width: 430px;
+
+}
+
+
+
+.inurl:valid {
+    color: antiquewhite;
+}
+
+.inurl:focus {
+    border-bottom: 2px solid skyblue;
+}
+
+.divboxadd button {
+    position: absolute;
+    top: 190px;
+    left: 316px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(57, 57, 57);
+    color: rgb(163, 162, 162);
+
+}
+
+#inpcnsl {
+    background: transparent;
+    border: 1px solid rgb(176, 170, 170);
+    color: rgb(78, 242, 242);
+    font-size: 10px;
+    padding: 9.5px;
+    width: 66px;
+    height: 30px;
+}
+
+#inpcnsl:hover {
+    background-color: rgb(57, 57, 57);
+    
+}
+.im{
+    height: 50%;
+    width: 50%px;
+}
+
+.imagediv{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}

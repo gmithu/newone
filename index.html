@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="taskb">
+
+            <form action="http://127.0.0.1:5500/index.html"><button class="taskbb"><i
+                        class="fa-solid fa-earth-americas"></i>project</button></form>
+            <form action="http://127.0.0.1:5501/index.html"> <button class="taskbb"><i
+                        class="fa-solid fa-earth-americas"></i>table</button></form>
+        </div>
+        <div class="confirst">
+            <form action="https://www.google.com/intl/en-US/gmail/about/"> <button class="b">Gmail</button></form>
+            <form action="https://www.google.com/imghp?hl=en-GB&tab=ri&ogbl"><button class="b1">image</button></form>
+
+        </div>
+
+
+        <div class="cont">
+            <h1 style="color: rgb(255, 255, 255);font-size: 5rem;margin: 33px; margin-top: 70px;">Google</h1>
+            <div class="inpdiv"><input type="text" placeholder="   &#xf002     Search Google of type of a URL"
+                    class="coninput" id="maininpt">
+                <div class="inpdivch"></div>
+                <div class="inpdivch1"></div>
+            </div>
+
+
+            <div class="contchild">
+                <div class="bcont">
+                    <form action="https://support.google.com/chrome/?p=help&ctx=keyboard#topic=7439538"><button
+                            class="Gbtn"><i class="fa-brands fa-google" style="color: rgb(81, 81, 216);"></i></button>
+                    </form>
+                    <h6 class="h1">Google Chrome</h6>
+                </div>
+                <div class="bcont">
+                    <form action="https://chromewebstore.google.com/?hl=en-GB"><button class="Gbtn"><i
+                                class="fa-brands fa-chrome"></i></button></form>
+                    <h6 class="h1">Web Store</h6>
+                </div>
+                <div class="bcont"><button class="Gbtn" onclick="gb()">+</button>
+                    <h6 class="h1">Add Shortcut</h6>
+                </div>
+
+            </div>
+            <div style="height: 120vh;width: 100%; position: absolute;top: 0px;background-color: rgb(0, 0, 0);opacity: 0.5;display: none;z-index: 1;"
+                id="backdiv"></div>
+
+            <div class="imagediv">
+                <img id="im1" class="im">
+                <img id="im2" class="im">
+            </div>
+
+            <div class="divboxadd">
+                <h3 style="color: azure; margin: 0;">Add Shortcut</h3>
+                <input type="text" class="inadd">
+                <input type="text" class="inurl">
+                <form action=""><button id="inpcnsl">Cancel</button></form>
+                <button style="margin-left: 76px;padding: 8px; width: 63px;height: 30px;">Done</button>
+            </div>
+        </div>
+        <div class="nav">
+            <span style="--i:0;--x:-1;--y:0"></span>
+            <span style="--i:1;--x:1;--y:0"></span>
+            <span style="--i:2;--x:0;--y:-1"></span>
+            <span style="--i:3;--x:0;--y:1"></span>
+            <span style="--i:4;--x:1;--y:1"></span>
+            <span style="--i:5;--x:-1;--y:-1"></span>
+            <span style="--i:6;--x:0;--y:0"></span>
+            <span style="--i:7;--x:-1;--y:1"></span>
+            <span style="--i:8;--x:1;--y:-1"></span>
+        </div>
+
+    </div>
+    <script src="./s.js"></script>
+</body>
+
+</html>
